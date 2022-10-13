@@ -219,11 +219,37 @@ body{
         width: 100vw;
     }
     .first .offer{
-        width: 85%;
+        width: 75%;
         display: block;
     }
     .full-page .cont{
         display: block;
     }
   }
+
+  @media only screen and (max-width: 400px) {
+    .first{
+        margin: auto;
+        width: 90%;
+        display: block;
+    }
+    .differ{
+        display: flex;
+        width: 90vw;
+    }
+    .con{
+        margin: 5px;
+        width: 100vw;
+    }
+    .con .des{
+        display: block;
+    }
+    .first .offer{
+        width: 75%;
+        display: block;
+    }
+    .full-page .cont{
+        display: block;
+    }
+  }  
   
